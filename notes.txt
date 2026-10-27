@@ -1,0 +1,44 @@
+setup: npm create vite@latest
+
+react single page appliaction cause only one entry point index.html
+
+index.html >> main.jsx >> App.jsx
+
+images resides in public folder
+
+internal css scripts tag ma huncha
+
+JS is a single-threaded, synchronus, blocking language
+
+number => 1,2,3,3.4
+
+string => "a", "nitan", "1"
+
+boolean => true, false
+
+
+
+external css    
+    make css file
+    import css file in main.jsx
+    use
+
+
+component
+    user made tag
+    first letter of user made tag must always be capital
+
+sending body data
+get data
+dynamic params
+query
+get query
+
+
+error: file, line, what
+
+something is not define => import
+can not find module => missing js
+
+
+localhost:8002/a/b?price=10000&quantity=10&color=red

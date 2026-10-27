@@ -1,0 +1,54 @@
+to send first delete node modules then to download it npm i 
+npm i react-router-dom 
+description in textarea 
+
+
+
+clone then delete node modules and package lock from express 
+then now do npm i 
+
+enable cors
+npm i cors then run backend
+below listen app.use(cors()) then import it 
+we will work on product only 
+now we will try first in postman 
+
+now we go to react run it and fill form in create product 
+when we submit it goes in console we have to send through api we will use backend url 
+to hit api (to request backend) first install package npm i axios in react import axios
+remove console.log and write let result = await axios({url: "http://", method:"", data: data }) now keep this in try and catch 
+to see it has gone to backend or not we have to see in network panel then fetch/XHR then go to headers, payload and preview 
+preview has backend to frontend message
+payload front to back info 
+header has url and method 
+
+after submitting the fill should be clear 
+setName("") likewise all below the let result 
+
+
+now we have to install npm i react-toastify 
+whenever we work with react-toastify we have to go to main then write there <ToastContainer> and import it 
+
+after that below setDescription write toast.success("Product created succesfully")
+for failure toast.error("Unable to create product") inside catch 
+toast is side message 
+
+toast.error(error.response.data.message) in catch remove old one 
+
+now we will do of readAllProduct now we have to write let products = [{},{},{}]
+now to show it we have to use map 
+button click and page refresh for backend
+hit api on page refresh 
+api gives data
+set data to product 
+
+we will use useEffect((function, [])) to hit api on page refresh 
+
+define getData()
+
+result.data.result 
+to check console.log(result)
+ then to set data we have to do setProducts(result.data.result)
+
+
+ update and delete by ourselves 

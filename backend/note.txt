@@ -1,0 +1,22 @@
+tomake api
+    make route
+    use that route to index.js
+    
+
+
+
+file, line, what
+something is not define => import
+can not find module => missing .js
+
+
+sending body data
+get data
+dynamic params
+get params
+query 
+get query
+
+
+
+
